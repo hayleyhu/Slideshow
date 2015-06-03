@@ -33,13 +33,17 @@ video#bgvid {
     }
 }
 
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 li.navi {
     background-color: lightcyan;
     padding:5px;
     display:inline;
     font-size:22px;
     margin:10px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     color:white;
@@ -88,4 +92,5 @@ p {
     margin-left:25%;
     margin-right:25%;
     text-align:left;
+    font-family: 'Noto Serif', serif;
 }
