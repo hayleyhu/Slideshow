@@ -17,12 +17,20 @@ video {
 }
 
 @media screen and (max-device-width: 800px) {
-body {
-    background: url("submerged.jpg") #000 no-repeat center center; 
+video#bgvid { 
+    top: 20%;
+    left:50%;
+    position:relative;
+    padding-bottom:100px;
 }
-#bgvid { 
-    display: none; 
-}
+    iframe {
+        width:100%;
+        height: 45%;
+    }
+    img#nbn {
+        top:0%;
+        height:3%;
+    }
 }
 
 li.navi {
@@ -73,5 +81,5 @@ nav {
       position: relative;
       top: 10%;
       height: 8%;
-      float:left
+      float:left;
 }
