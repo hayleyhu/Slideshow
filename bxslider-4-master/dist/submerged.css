@@ -26,22 +26,28 @@ body {
 }
 
 li.navi {
-    background-color: lightcyan;
+    background-color: lightsteelblue;
     padding:5px;
     display:inline;
     font-size:22px;
     margin:10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
 }
 
-#home {
+li#home {
     display:inline;
     font-size:22px;
     float:left;
     padding-left:5px;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
 li.navi:hover {
     opacity:0.5;
+
 }
 
 a {
@@ -58,7 +64,7 @@ a {
 nav {
     position:fixed;
     top:0;
-    background-color:lightblue;
+    background-color:lightsteelblue;
     width:100%;
     z-index:99999;
 }
