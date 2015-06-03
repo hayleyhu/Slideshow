@@ -18,7 +18,7 @@ video {
 
 @media screen and (max-device-width: 800px) {
 body {
-    background: url("submerged.jpg") #000 no-repeat center center fixed; 
+    background: url("submerged.jpg") #000 no-repeat center center; 
 }
 #bgvid { 
     display: none; 
@@ -26,7 +26,7 @@ body {
 }
 
 li.navi {
-    background-color: lightsteelblue;
+    background-color: lightcyan;
     padding:5px;
     display:inline;
     font-size:22px;
@@ -42,7 +42,6 @@ li#home {
     font-size:22px;
     float:left;
     padding-left:5px;
-    font-family: "Times New Roman", Georgia, Serif;
 }
 
 li.navi:hover {
@@ -63,8 +62,9 @@ a {
 
 nav {
     position:fixed;
+    left:0;
     top:0;
-    background-color:lightsteelblue;
+    background-color:lightcyan;
     width:100%;
     z-index:99999;
 }
