@@ -83,3 +83,9 @@ nav {
       height: 8%;
       float:left;
 }
+
+p {
+    margin-left:25%;
+    margin-right:25%;
+    text-align:left;
+}
