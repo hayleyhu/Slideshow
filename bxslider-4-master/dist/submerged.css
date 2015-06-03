@@ -1,0 +1,50 @@
+body {
+    background-image: url("http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/GOPR0177.JPG");
+    background:cover;
+    }
+
+video#bgvid {
+position:relative;
+top: 50%;
+left: 50%;
+width: 100%;
+height: auto;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+}
+
+video { 
+    display: block; 
+}
+
+@media screen and (max-device-width: 800px) {
+body {
+    background: url("submerged.jpg") #000 no-repeat center center fixed; 
+}
+#bgvid { 
+    display: none; 
+}
+}
+
+li.navi {
+    background-color: lightblue;
+    padding:5px;
+    display:inline;
+    font-size:30px;
+    margin:10px;
+}
+
+li.navi:hover {
+    opacity:0.5;
+}
+
+a {
+    text-decoration:none;
+}
+
+.heading {
+    display:inline;
+    width:30%;
+    margin:15px;
+    border: solid white 2px;
+}

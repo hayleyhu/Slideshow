@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="submerged.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://vjs.zencdn.net/c/video.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+            <script>
+            $(document).ready(function(){
+	$('#slider2').bxSlider({
+  		auto: true,
+  		autoControls: true,
+  		adaptiveHeight: true,
+  		captions: true,
+  		pause: 3000,
+  		slideMargin: 20,
+  		slideWidth: 900
+	});
+                
+});
+    </script>
+</head>
+    
+<body>
+    <video autoplay poster="submerged.jpg" id="bgvid" controls="controls" preload="auto">
+<source src="intro.webm" type="video/webm">
+<source src="intro.mp4" type="video/mp4">
+</video>
+    
+
+    <center>
+        <p>blah blah blah blah blah some kind of intro to the project</p>
+            <br></br>
+        <ul>
+            <li class="navi"><a href="#lmich">Lake Michigan</a></li>
+            <li class="navi"><a href="#swim">Swimming</a></li>
+            <li class="navi"><a href="#dive">Diving</a></li>
+            <li class="navi"><a href="#outdoor">Outdoor Sports</a></li>
+        </ul>
+    </center>
+    
+    <br></br>
+<br></br>
+
+    <center>
+    <h1 id="lmich">Lake Michigan</h1>
+    <p>blah blah blah some kind of text here</p>
+        </center>
+    
+<ul id="slider2">
+<li><img src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0009.JPG"/></li>
+<li><img src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0148.JPG"/></li>
+<li><img src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0166.JPG"/></li>
+<li><img src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0169.JPG"/></li>
+<li><img src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0168.JPG"/></li>
+  <li><img src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0175.JPG"/></li>
+</ul>
+
+    <br></br>
+<br></br>
+
+    <center>
+    <h1 id="swim">Swimming</h1>
+    <p>blah blah blah some kind of text here</p>
+
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0272.JPG">
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0251.JPG">
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/01/GOPR0225.JPG">
+                </center>
+
+    <br></br>
+<br></br>
+
+    <center>
+    <h1 id="dive">Diving</h1>
+    <p>blah blah blah some kind of text here</p>
+
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/G0173457.JPG">
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/G0193477.JPG">
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/G0193474.JPG">
+                </center>
+
+    <br></br>
+<br></br>
+
+    <center>
+    <h1 id="outdoor">Outdoor Sports</h1>
+    <p>blah blah blah some kind of text here</p>
+
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/GOPR3705.JPG">
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/GOPR3712.JPG">
+<img class="heading" src="http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/GOPR3701.JPG">
+                </center>
+
+    <br></br>
+<br></br>
+
+    <script>
+        $(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});        
+    </script>
+</body>
+</html>
