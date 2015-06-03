@@ -1,6 +1,5 @@
 body {
-    background-image: url("http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/06/03/GOPR0177.JPG");
-    background:cover;
+    background-color: lightblue;
     }
 
 video#bgvid {
@@ -27,7 +26,7 @@ body {
 }
 
 li.navi {
-    background-color: lightblue;
+    background-color: lightcyan;
     padding:5px;
     display:inline;
     font-size:30px;
