@@ -48,6 +48,10 @@ ul.bxslider {
   bottom: -30px;
   width: 100%;
 }
+.bx-pager {
+    margin-left: 45%;
+    margin-right:45%;
+}
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
