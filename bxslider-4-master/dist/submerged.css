@@ -1,5 +1,5 @@
 body, html {
-    background-color: lightsteelblue;
+    background-color: #E6FAF8;
     height:100%;
     }
 
@@ -12,13 +12,13 @@ body, html {
 }
 
 video#bgvid {
-position:relative;
+    position:relative;
     top:50%;
-left: 50%;
-width: 100%;
-height: auto;
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 video { 
@@ -46,8 +46,8 @@ video#bgvid {
 }
 
 h1, h3 {
-    font-family: 'Montserrat', sans-serif;
-    color:navy;
+    font-family: 'Roboto', sans-serif;
+    color: #13433e;
 }
 
 .foot {
@@ -62,7 +62,7 @@ footer {
     bottom:0;
     left:0;
     width:100%;
-    background-color:lightcyan;
+    background-color: lightcyan;
     height:5em;
     padding:15px;
 }
@@ -81,14 +81,15 @@ li {
 }
 
 li.navi {
-    background-color: lightcyan;
     display:inline;
     font-size:22px;
     margin:10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #13433e !important;
     font-weight: bold;
     text-transform: uppercase;
     height:100%;
+    opacity: 0.6;
 }
 
 li#home {
@@ -96,18 +97,21 @@ li#home {
     font-size:25px;
     float:left;
     padding-left:5px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #13433e !important;
     font-weight: bold;
     position:relative;
     bottom:10px;
 }
 
 li.navi:hover {
-    opacity:0.5;
+    opacity:1;
 }
 
 a {
     text-decoration:none;
+        font-family: 'Roboto', sans-serif;
+    color: #13433e;
 }
 
 .heading {
@@ -117,28 +121,47 @@ a {
     border: solid white 2px;
 }
 
+nav a {
+    color: #333333;
+}
+
 nav {
+    font-family: 'Roboto', sans-serif;
     position:fixed;
     left:0;
     top:0;
-    background-color:lightcyan;
+    background: -moz-linear-gradient(bottom,  rgba(193,232,231,1) 50%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(193,232,231,1) ), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom,  rgba(193,232,231,1) 50%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom,  rgba(193,232,231,1) 50%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom,  rgba(193,232,231,1) 50%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(193,232,231,1) 50%,rgba(0,0,0,0) 100%); /* W3C */
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), to(rgba(0, 0, 0, 0)));*/
     width:100%;
     z-index:99999;
     padding-top:10px;
 }
 
 #nbn {
+<<<<<<< HEAD
+    position: relative;
+    top: 10%;
+    height: 8%;
+    float:left;
+    bottom:10px;
+=======
       position: relative;
       top: 10%;
       height: 8%;
       float:left;
       bottom:10px;
+>>>>>>> refs/remotes/origin/master
 }
 
 p {
     margin-left:25%;
     margin-right:25%;
     text-align:left;
-    font-family: 'Noto Serif', serif;
-    color:navy;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    color: #333333;
 }
